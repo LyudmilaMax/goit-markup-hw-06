@@ -847,6 +847,8 @@ body {
 .modal-form-check:checked + .modal-form-own-checkbox {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
+  transition: color var(--transition-color),
+      background-color var(--transition-bgc);
 }
 
 .modal-form-check:checked
