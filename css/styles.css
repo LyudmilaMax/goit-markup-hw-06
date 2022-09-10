@@ -609,7 +609,6 @@ body {
   justify-content: center;
   column-gap: 10px;
   margin-top: 20px;
-  margin-right: 93px;
 }
 
 .icon-footer {
@@ -639,16 +638,16 @@ body {
   fill: var(--secondary-text-color-light);
 }
 
+
+
 .footer-form {
-  margin-right: 0;
+  
   margin-left: auto;
 }
 
-.footer-label {
-  display: flex;
-}
 
 .btn-email {
+  display: inline-flex;
   width: 358px;
   height: 50px;
   margin: 0;
@@ -702,7 +701,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 580px;
   padding: 40px 40px;
 
   background-color: var(--background-basic);
@@ -779,7 +777,7 @@ body {
 }
 
 .modal-form-field {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .modal-form-input-wrapper {
   position: relative;
@@ -823,6 +821,7 @@ body {
 .modal-form-check-field {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 .modal-form-check {
@@ -848,7 +847,7 @@ body {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   transition: color var(--transition-color),
-      background-color var(--transition-bgc);
+    background-color var(--transition-bgc);
 }
 
 .modal-form-check:checked
@@ -878,7 +877,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   transition: color var(--transition-color),
-  background-color var(--transition-bgc);
+    background-color var(--transition-bgc);
 }
 
 .modal-form-sumbit:hover,
@@ -896,7 +895,7 @@ body {
 }
 
 .button-footer {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-align: center;
   justify-content: center;
